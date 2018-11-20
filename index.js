@@ -1,3 +1,5 @@
-function myGitExample() {
-    console.log('this is for the fist commit');
+function myGitExample(message) {
+    console.log(message);
 }
+
+myGitExample('this is for the merge strategy demo');
